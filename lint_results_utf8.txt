@@ -1,0 +1,35 @@
+﻿
+> portfolio-website@0.1.0 lint
+> eslint
+
+
+C:\Users\rashm\portfolio-website\src\app\api\projects\route.ts
+  10:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rashm\portfolio-website\src\app\api\seed\route.ts
+  80:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rashm\portfolio-website\src\app\api\skills\route.ts
+  10:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rashm\portfolio-website\src\app\api\test-db\route.ts
+  11:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rashm\portfolio-website\src\app\components\sections\Contact.tsx
+  35:18  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rashm\portfolio-website\src\app\lib\models\Contact.ts
+  1:8  warning  'mongoose' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rashm\portfolio-website\src\app\lib\models\Project.ts
+  1:8  warning  'mongoose' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rashm\portfolio-website\src\app\lib\models\Skill.ts
+  1:8  warning  'mongoose' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rashm\portfolio-website\src\app\lib\mongodb.ts
+  14:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  17:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 10 problems (6 errors, 4 warnings)
+
